@@ -9,11 +9,16 @@
   clear: both;
 }
 
+/* standard per tutte le varie colonne */
 [class*="col-"] {
   float: left;
   height: 200px;
 }
 
+[class*="col-"] {
+  background-color: #FFC0CB;
+}
+/* creazione standard varie colonne 12 bool */
 .col-1 {
   width: calc((100% / 12) *1);
   border: 1px solid black;
@@ -73,9 +78,6 @@
   width: 100%;
   border: 1px solid black;
 }
-
-
-
 
 
 
