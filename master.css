@@ -1,4 +1,28 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
+
+main {
+  margin: 0 15%;
+}
+
+.container div p {
+  text-align: center;
+  position: relative;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+
+.padding {
+  padding: 5px;
+  height: auto;
+}
+[class*="col-"] {
+  background-color: #FFC0CB;
+}
+
+.color {
+  background-color: #F07F80;
+  border-color: white;
